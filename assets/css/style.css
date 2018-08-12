@@ -1,14 +1,9 @@
 /* Nav Styles
 -------------------------------------------------- */
-.navbar {
-    margin-bottom: 40px;
-    padding: 0 1rem;
-    background: #fff;
-}
+
 
 .navbar-brand {
     background: #47BEDB;
-    color: #fff;
     padding: 20px;
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -16,14 +11,40 @@
     font-weight: bold;
 }
 
+#logo-text {
+    color: #fff;
+}
+
+.navbar {
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
 nav ul a {
     color: rgb(46, 46, 46);
     font-family: Arial, Helvetica, sans-serif
 }
 
-.navbar-toggler {
-    background-color: black;
-    border: 1px solid white;
+/* Main content styles
+-------------------------------------------------- */
+
+#main-padding{ 
+    padding:30px;
+}
+
+h2 {
+    color: #47BEDB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p {
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: 2px solid #EEEFF0;
 }
 
 
@@ -52,13 +73,12 @@ html {
   /* Not required for template or sticky footer method. */
   
 body {
-    background-image: url("/assets/images/sayagata-400px.png");
+    background-image: url("../images/sayagata-400px.png");
     background-repeat: repeat;
 }
 
 .container {
     width: 960px;
-    padding: 15px;
 }
 
 .inner-footer {
@@ -67,4 +87,9 @@ body {
 
 .inner-nav {
     padding: 0px;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
 }
